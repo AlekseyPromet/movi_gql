@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/alexpromet/movi/graph/generated"
-	"github.com/alexpromet/movi/graph/model"
+	"github.com/AlekseyPromet/movi/graph/generated"
+	"github.com/AlekseyPromet/movi/graph/model"
 )
 
 func (r *mutationResolver) CreateVideo(ctx context.Context, input model.NewVideo) (*model.Video, error) {

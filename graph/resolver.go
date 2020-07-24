@@ -3,7 +3,7 @@ package graph
 import (
 	"context"
 
-	"github.com/prometalex/graph/model"
+	"github.com/AlekseyPromet/graph/model"
 )
 
 type Resolver struct{}
